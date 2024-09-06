@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/")
 public class UserController {
-    @GetMapping("/")
-    public String hello() {
+    @PostMapping("/signin")
+    public String userSignIn() {
         return "Hello, BackEnd!";
     }
 }
