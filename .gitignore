@@ -66,6 +66,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.vs
 
 HELP.md
 target/
